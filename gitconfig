@@ -1,0 +1,19 @@
+[core]
+	autocrlf = false
+	editor = edit
+[user]
+	email = george.kulakowski@gmail.com
+	name = George Kulakowski
+[alias]
+	b = branch
+	c = commit
+	co = checkout
+	d = diff
+	f = fetch
+	l = log
+	ref = rev-parse --short HEAD
+	rp = rev-parse
+	s = status
+	t = tag
+[color]
+	ui = true
