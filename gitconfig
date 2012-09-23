@@ -1,6 +1,6 @@
 [core]
 	autocrlf = false
-	editor = edit
+	editor = hack
 [user]
 	email = george.kulakowski@gmail.com
 	name = George Kulakowski
