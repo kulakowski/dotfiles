@@ -61,12 +61,12 @@ setopt notify
 function setup_prompt {
     local subshell_depth
     case $TERM in
-	dumb|eterm*)
-	    subshell_depth=4 ;;
-	screen*)
-	    subshell_depth=3 ;;
-	*)
-	    subshell_depth=2 ;;
+        dumb|eterm*)
+            subshell_depth=4 ;;
+        screen*)
+            subshell_depth=3 ;;
+        *)
+            subshell_depth=2 ;;
     esac
     local subshell="%${subshell_depth}(L.%F{$2}+ .)"
     local error="%(?..%F{$2}%? )"
