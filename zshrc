@@ -81,5 +81,5 @@ function setup_prompt {
 ${subshell}${error}%F{$1}$ %f"
     PS2="%F{$1}(%F{$1}%_%F{$1}): %f"
 }
-setup_prompt blue cyan
+setup_prompt blue red
 unfunction setup_prompt
