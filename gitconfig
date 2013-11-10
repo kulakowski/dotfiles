@@ -18,6 +18,3 @@
 	t = tag
 [color]
 	ui = true
-[merge]
-	ff = no
-	commit = no
