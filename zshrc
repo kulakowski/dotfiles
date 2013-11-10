@@ -1,7 +1,7 @@
 # Environment variables
 export HISTFILE=${HOME}/.zshhistfile
-export HISTSIZE=4096
-export SAVEHIST=4096
+export HISTSIZE=65536
+export SAVEHIST=65536
 
 export EDITOR=hack
 
