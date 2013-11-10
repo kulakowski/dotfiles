@@ -42,6 +42,12 @@ alias la='ls -A'
 alias ll='ls -l'
 
 
+# Git
+__git_files () {
+    _wanted files expl 'local files' _files
+}
+
+
 # Autoloads
 autoload -Uz compinit
 compinit
