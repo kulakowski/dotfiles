@@ -7,7 +7,7 @@ export EDITOR=hack
 
 export MIRALIB=$HOME/lib/miralib
 
-export DCF_ROOT=~/apportable/dcf
+export DCF_ROOT=~/apportable/repos/dcf
 
 # Path.
 typeset -U path
