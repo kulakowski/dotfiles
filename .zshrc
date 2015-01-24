@@ -15,6 +15,7 @@ typeset -U fpath
 
 path=(
     ~/bin
+    ~/code/scripts
     $DCF_ROOT/toolchain/macosx/android-sdk/platform-tools
     $DCF_ROOT/toolchain/macosx/android-sdk/tools
     $DCF_ROOT/bin
