@@ -42,6 +42,12 @@ alias la='ls -A'
 alias ll='ls -l'
 
 
+# Nix
+export NIX_PATH=$HOME/.nix/nixpkgs:nixpkgs=$HOME/.nix/nixpkgs
+export NIX_CONF_DIR=$HOME/.nix/nix.conf
+source $HOME/.nix-profile/etc/profile.d/nix.sh
+
+
 # Git
 __git_files () {
     _wanted files expl 'local files' _files
