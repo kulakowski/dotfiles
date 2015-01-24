@@ -43,8 +43,8 @@ alias ll='ls -l'
 
 
 # Nix
-export NIX_PATH=$HOME/.nix/nixpkgs:nixpkgs=$HOME/.nix/nixpkgs
-export NIX_CONF_DIR=$HOME/.nix/nix.conf
+export NIX_PATH=$HOME/code/nixpkgs:nixpkgs=$HOME/code/nixpkgs
+export NIX_CONF_DIR=$HOME/code/dotfiles/nix.conf
 source $HOME/.nix-profile/etc/profile.d/nix.sh
 
 
