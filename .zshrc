@@ -50,6 +50,7 @@ source $HOME/.nix-profile/etc/profile.d/nix.sh
 
 
 # Git
+export GIT_SSL_CAINFO=$(nix-env -q --out-path --no-name cacert)/etc/ca-bundle.crt
 __git_files () {
     _wanted files expl 'local files' _files
 }
