@@ -38,14 +38,7 @@ alias la='ls -A'
 alias ll='ls -l'
 
 
-# Nix
-export NIX_PATH=$HOME/code/nixpkgs:nixpkgs=$HOME/code/nixpkgs
-export NIX_CONF_DIR=$HOME/code/dotfiles/nix.conf
-source $HOME/.nix-profile/etc/profile.d/nix.sh
-
-
 # Git
-export GIT_SSL_CAINFO=$(nix-env -q --out-path --no-name cacert)/etc/ca-bundle.crt
 __git_files () {
     _wanted files expl 'local files' _files
 }
