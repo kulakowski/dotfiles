@@ -32,7 +32,7 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
-alias ls='ls -FGh'
+alias ls='ls -Fh --color=auto'
 alias l='ls'
 alias la='ls -A'
 alias ll='ls -l'
@@ -75,10 +75,8 @@ setopt notify
 function setup_prompt {
     local subshell_depth
     case $TERM in
-        dumb|eterm*)
+        dumb|eterm*|screen*)
             subshell_depth=4 ;;
-        screen*)
-            subshell_depth=3 ;;
         *)
             subshell_depth=2 ;;
     esac
