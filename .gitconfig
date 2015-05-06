@@ -2,7 +2,7 @@
 	autocrlf = false
 	editor = hack
 [user]
-	email = george.kulakowski@gmail.com
+	email = kulakowski@google.com
 	name = George Kulakowski
 [alias]
 	b = branch
