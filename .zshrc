@@ -7,8 +7,6 @@ export EDITOR=hack
 
 export MIRALIB=$HOME/lib/miralib
 
-export DCF_ROOT=~/apportable/repos/dcf
-
 # Path.
 typeset -U path
 typeset -U fpath
@@ -16,9 +14,6 @@ typeset -U fpath
 path=(
     ~/bin
     ~/code/scripts
-    $DCF_ROOT/toolchain/macosx/android-sdk/platform-tools
-    $DCF_ROOT/toolchain/macosx/android-sdk/tools
-    $DCF_ROOT/bin
     $path
 )
 
