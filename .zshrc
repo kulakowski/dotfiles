@@ -7,6 +7,8 @@ export EDITOR=hack
 
 export MIRALIB=$HOME/lib/miralib
 
+export GOMA_DIR=$HOME/goma
+
 # Path.
 typeset -U path
 typeset -U fpath
@@ -14,6 +16,7 @@ typeset -U fpath
 path=(
     ~/bin
     ~/code/scripts
+    ~/depot_tools
     $path
 )
 
