@@ -1,6 +1,7 @@
 [core]
 	autocrlf = false
 	editor = hack
+	filemode = false
 [user]
 	email = kulakowski@google.com
 	name = George Kulakowski
@@ -12,9 +13,15 @@
 	dc = diff --cached
 	f = fetch
 	l = log
+	make = !make
 	ref = rev-parse --short HEAD
+	root = !pwd
 	rp = rev-parse
 	s = status
 	t = tag
 [color]
 	ui = true
+[branch]
+	autosetuprebase = always
+[http]
+	cookiefile = /usr/local/google/home/kulakowski/.gitcookies
