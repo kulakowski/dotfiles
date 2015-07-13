@@ -16,6 +16,7 @@ typeset -U fpath
 path=(
     ~/bin
     ~/code/scripts
+    /slice/modular/src/third_party/dart-sdk/dart-sdk/bin
     ~/depot_tools
     $path
 )
