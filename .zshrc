@@ -78,3 +78,7 @@ ${error}%F{$1}$ %f"
 }
 setup_prompt blue red
 unfunction setup_prompt
+
+
+# Slice setup
+source /slice/modular/src/build/android/envsetup.sh
