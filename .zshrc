@@ -70,19 +70,10 @@ setopt notify
 
 # Prompts
 function setup_prompt {
-    local subshell_depth
-    case $TERM in
-        dumb|eterm*|screen*)
-            subshell_depth=4 ;;
-        *)
-            subshell_depth=2 ;;
-    esac
-    local subshell="%${subshell_depth}(L.%F{$2}+ .)"
     local error="%(?..%F{$2}%? )"
-
     PS1="
 %F{$1}%n@%m:%~%f
-${subshell}${error}%F{$1}$ %f"
+${error}%F{$1}$ %f"
     PS2="%F{$1}(%F{$1}%_%F{$1}): %f"
 }
 setup_prompt blue red
