@@ -30,6 +30,9 @@ fpath=(
 )
 
 
+# Nix
+source ~/.nix-profile/etc/profile.d/nix.sh
+
 # Aliases and functions
 alias cp='cp -i'
 alias mv='mv -i'
