@@ -9,6 +9,8 @@ export MIRALIB=$HOME/lib/miralib
 
 export GOMA_DIR=$HOME/goma
 
+export JIRI_ROOT=/slice/fuchsia
+
 # Path.
 typeset -U path
 typeset -U fpath
@@ -17,6 +19,7 @@ path=(
     ~/bin
     ~/code/scripts
     /slice/modular/src/third_party/dart-sdk/dart-sdk/bin
+    ${JIRI_ROOT}/devtools/bin
     ~/depot_tools
     $path
 )
