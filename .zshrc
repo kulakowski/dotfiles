@@ -14,7 +14,6 @@ typeset -U fpath
 path=(
     ~/bin
     ~/code/scripts
-    ~/depot_tools
     $path
 )
 
