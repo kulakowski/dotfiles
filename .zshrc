@@ -14,6 +14,7 @@ typeset -U fpath
 path=(
     ~/bin
     ~/code/scripts
+    ~/.cargo/bin
     $path
 )
 
