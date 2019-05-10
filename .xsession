@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PATH=/usr/local/google/home/kulakowski/bin:$PATH
+PATH=/home/gk/bin:$PATH
 
 xrdb ~/.Xresources
 xmodmap .Xmodmap
@@ -12,4 +12,4 @@ stalonetray --window-layer top --window-type normal --window-strut none --geomet
 nm-applet &
 pasystray &
 
-exec /usr/local/google/home/kulakowski/bin/xmonad
+exec /home/gk/bin/xmonad

@@ -12,7 +12,7 @@ import XMonad.Util.EZConfig
 import XMonad.Util.Run
 
 main = do
-  xmobar <- spawnPipe "/usr/local/google/home/kulakowski/bin/xmobar"
+  xmobar <- spawnPipe "/${HOME}/bin/xmobar"
   xmonad $ withUrgencyHook NoUrgencyHook $ docks $ defaultConfig
              { borderWidth = 2
              , terminal = "urxvt"
@@ -24,8 +24,7 @@ main = do
              , handleEventHook = ewmhDesktopsEventHook
              , manageHook = myManageHook
              } `additionalKeys`
-                 [ ((myMask, xK_b), spawn "google-chrome --profile-directory='Default'")
-                 , ((myMask .|. shiftMask , xK_b), spawn "google-chrome --profile-directory='Profile 1'")
+                 [ ((myMask, xK_b), spawn "google-chrome --profile-directory='Profile 1'")
                  , ((myMask, xK_s), spawn "subl -n")
                  , ((myMask, xK_Escape), spawn "xscreensaver-command -lock")
                  ]

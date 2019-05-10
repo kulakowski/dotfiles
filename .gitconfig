@@ -3,7 +3,7 @@
 	editor = hack
 	filemode = false
 [user]
-	email = kulakowski@google.com
+	email = george.kulakowski@gmail.com
 	name = George Kulakowski
 [alias]
 	b = branch
@@ -24,4 +24,4 @@
 [branch]
 	autosetuprebase = always
 [http]
-	cookiefile = /usr/local/google/home/kulakowski/.gitcookies
+	cookiefile = /home/gk/.gitcookies
