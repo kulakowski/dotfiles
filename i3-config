@@ -35,7 +35,7 @@ bindsym $mod+backslash exec amixer sset Master 2dB-
 bindsym $mod+equal exec amixer sset Master toggle
 
 # suspend controls
-bindsym $mod+z exec systemctl suspend
+bindsym $mod+z exec i3lock && systemctl suspend
 
 # kill focused window
 bindsym $mod+Shift+q kill
