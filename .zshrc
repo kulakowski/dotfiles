@@ -5,8 +5,6 @@ export SAVEHIST=65536
 
 export EDITOR=hack
 
-export GOMA_DIR=$HOME/goma
-
 # Path.
 typeset -U path
 typeset -U fpath
